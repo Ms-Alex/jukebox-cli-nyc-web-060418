@@ -50,14 +50,14 @@ def run(songs)
     
     while user != "exit"
       case user
-      when "list"
-        list(songs)
-      when "play"
-        play(songs)
-      when "help"
-        help
-      else
-        puts "Invalid command."
+        when "list"
+          list(songs)
+        when "play"
+          play(songs)
+        when "help"
+          help
+        else
+          puts "Invalid command."
       end
     end
     break if user == "exit"
