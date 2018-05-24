@@ -6,9 +6,9 @@
 # "Go Go GO" => '/home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/01.mp3',
 # "LiberTeens" => 'home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/02.mp3',
 # "Hamburg" =>  'home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
+# "Guiding Light" => 'home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/04.mp3',
+# "Wolf" => 'home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/05.mp3',
+# "Blue" => 'home/Ms-Alex/jukebox-cli-nyc-web-060418/audio/Emerald-Park/06.mp3',
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
