@@ -47,7 +47,8 @@ def play(my_songs)
   user = gets.chomp
   
   my_songs.each do |song, dir|
-    
+    if user == song
+      
   
   if my_songs.keys.include?(user)
     play(my_songs[user])
