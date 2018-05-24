@@ -69,7 +69,6 @@ def run(my_songs)
   puts "Please enter a command:"
   user = gets.chomp
     
-    
   while user != "exit"
     case user
     when "list"
