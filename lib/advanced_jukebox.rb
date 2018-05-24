@@ -49,12 +49,10 @@ def play(my_songs)
   my_songs.each do |song, dir|
     if user == song
       system "open #{dir}"
+      return true
   
-  if my_songs.keys.include?(user)
-    play(my_songs[user])
-  else
-    puts "Invalid. Please, enter a song name:"
-    user = gets.chomp
+  puts "Invalid. Please, enter a song name:"
+  user = gets.chomp
   
 end
 
