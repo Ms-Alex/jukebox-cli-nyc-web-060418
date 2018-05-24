@@ -60,6 +60,7 @@ def run(songs)
           puts "Invalid command."
       end
     end
+    
     break if user == "exit"
   end
   
