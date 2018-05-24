@@ -29,7 +29,7 @@ def play(songs)
   user = gets.chomp
   
   if list(songs).include?(user)
-    puts "Playing #{songs[user + 1]}" if user.class == Integer
+    puts "Playing #{songs[user + 1]}" if user.class == Integer && user < songs.size
     puts "Playing #{user}"  
   else
     puts "Invalid input, please try again"
