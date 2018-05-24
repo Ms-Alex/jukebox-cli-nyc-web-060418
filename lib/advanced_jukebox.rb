@@ -51,8 +51,7 @@ def play(my_songs)
       system "open #{dir}"
       return true
   
-  puts "Invalid. Please, enter a song name:"
-  user = gets.chomp
+  puts "Invalid. Please, try again"
   
 end
 
