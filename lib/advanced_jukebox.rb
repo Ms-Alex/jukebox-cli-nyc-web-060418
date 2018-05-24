@@ -70,13 +70,15 @@ def run(my_songs)
   loop do
     puts "Please enter a command:"
     user = gets.chomp
-    case user
+    while user != "exit" do
+      case user
       when "list"
         list(my_songs)
       when "play"
         play(my_songs)
       when "help"
         help
+      end
     end
     break if user == "exit"
   end
