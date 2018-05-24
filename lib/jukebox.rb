@@ -47,7 +47,7 @@ def run(songs)
   loop do
     puts "Please enter a command:"
     user = gets.chomp
-    while user != "exit" do
+    while user != "exit"
       case user
       when "list"
         list(songs)
