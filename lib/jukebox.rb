@@ -60,7 +60,8 @@ def run(songs)
       end
     end
     
-    break if user == "exit"
+    puts "Please enter a command:"
+    user = gets.chomp
   end
   
   exit_jukebox
