@@ -47,7 +47,10 @@ def play(my_songs)
   user = gets.chomp
   
   if my_songs.keys.include?(user)
-    my_songs[user]
+    play(my_songs[user])
+  else
+    puts "Invalid. Please, enter a song name:"
+    user = gets.chomp
   
 end
 
