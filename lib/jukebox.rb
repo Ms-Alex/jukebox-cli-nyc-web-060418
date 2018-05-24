@@ -55,6 +55,8 @@ def run(songs)
         play(songs)
       when "help"
         help
+      else
+        puts "Invalid command."
       end
     end
     break if user == "exit"
