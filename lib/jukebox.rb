@@ -46,18 +46,17 @@ def run(songs)
   puts "Please enter a command:"
   user = gets.chomp
     
-  loop do
     
-    while user != "exit"
-      case user
-        when "list"
-          list(songs)
-        when "play"
-          play(songs)
-        when "help"
-          help
-        else
-          puts "Invalid command."
+  while user != "exit"
+    case user
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "help"
+      help
+    else
+      puts "Invalid command."
       end
     end
     
