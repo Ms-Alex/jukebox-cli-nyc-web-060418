@@ -46,7 +46,8 @@ def play(my_songs)
   puts "Please enter a song name:"
   user = gets.chomp
   
-  my_songs.each do 
+  my_songs.each do |song, dir|
+    
   
   if my_songs.keys.include?(user)
     play(my_songs[user])
