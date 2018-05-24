@@ -43,10 +43,10 @@ end
 
 def run(songs)
   help
-  
+  puts "Please enter a command:"
+  user = gets.chomp
+    
   loop do
-    puts "Please enter a command:"
-    user = gets.chomp
     
     while user != "exit"
       case user
