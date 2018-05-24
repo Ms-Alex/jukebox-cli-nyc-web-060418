@@ -85,5 +85,4 @@ def run(my_songs)
     user = gets.chomp
   end
   exit_jukebox
-  
 end
