@@ -57,7 +57,6 @@ def run(songs)
       help
     else
       puts "Invalid command."
-      end
     end
     
     puts "Please enter a command:"
