@@ -48,7 +48,7 @@ def play(my_songs)
   
   my_songs.each do |song, dir|
     if user == song
-      system "open #{user}"
+      system "open #{dir}"
   
   if my_songs.keys.include?(user)
     play(my_songs[user])
